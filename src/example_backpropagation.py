@@ -144,7 +144,7 @@ if __name__ == "__main__":
 	# 			   [1],
 	# 			   [0] ])
 
-	X, y = read_data("training_data.txt")
+	X, y = read_data("../data/training_data.txt")
 
 	# print(X)
 	# print(y)
@@ -166,6 +166,6 @@ if __name__ == "__main__":
 	net.train(epochs)
 
 	# print("\n\nTesting new scenarios...")
-	# X, y = read_data("verification_data.txt")
+	# X, y = read_data("../data/verification_data.txt")
 	# print(net.predict(X) - y)
 	print()
